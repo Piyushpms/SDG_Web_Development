@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem 0;
+}
+
+.contact-info {
+    text-align: center;
+    background-color: #002244;
+    padding: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons button {
+    background-color: white;
+    color: #003366;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.auth-buttons button:hover {
+    background-color: #ffcc00;
+}
+
+.hero {
+    text-align: left;
+    padding: 2rem;
+    background-image: url('1638847208915.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(48, 3, 3);
+    height: 500px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.connect-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.connect-btn:hover {
+    background-color: #ffa500;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats .stat {
+    text-align: center;
+}
+
+.campaigns {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.campaigns h2 {
+    text-align: center;
+}
+
+.campaigns .campaign {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.campaigns .campaign.reverse {
+    flex-direction: row-reverse;
+}
+
+.campaigns .campaign img {
+    max-width: 50%;
+    height: auto;
+}
+
+.campaigns .campaign-info {
+    padding: 1rem;
+    width: 200px;
+}
+
+.campaigns .campaign button {
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.campaigns .campaign button:hover {
+    background-color: #ffa500;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-info div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-info .links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-info .links ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-info .links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info .subscribe button {
+    background-color: white;
+    color: #003366;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.footer-info .subscribe button:hover {
+    background-color: #ffcc00;
+}
