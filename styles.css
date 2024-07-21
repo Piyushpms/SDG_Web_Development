@@ -57,7 +57,7 @@ nav ul li a {
 .hero {
     text-align: left;
     padding: 2rem;
-    background-image: url('cover1.png');
+    background-image: url('cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -275,3 +275,83 @@ footer {
 .form-container p a:hover {
     text-decoration: underline;
 }
+/* Contact Page Styles */
+
+#contact-us h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #003366;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #002244;
+}
+
+.contact {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact h3 {
+    color: #003366;
+}
+
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
