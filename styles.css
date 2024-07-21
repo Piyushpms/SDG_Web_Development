@@ -61,7 +61,7 @@ nav ul li a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: black;
+    color: transparent;
     border-color: aqua;
     border: 50px;
     text-decoration-color: aqua;
