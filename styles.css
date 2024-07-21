@@ -61,13 +61,13 @@ nav ul li a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: transparent;
-    font-size: 50px;
+    color: black;
+    /* font-size: 50px;
     -webkit-text-fill-color: aqua;
     border-color: aqua;
     border: 50px;
-    text-decoration-color: aqua;
-    text-decoration-thickness: 15px;
+    text-decoration-color: aqua; */
+    /* text-decoration-thickness: 15px; */
     height: 500px; /* Adjust height as needed */
     display: flex;
     flex-direction: column;
