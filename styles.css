@@ -62,6 +62,8 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     color: black;
+    border-color: aqua;
+    border: 5px;
     text-decoration-color: aqua;
     text-decoration-thickness: 15px;
     height: 500px; /* Adjust height as needed */
