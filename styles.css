@@ -63,6 +63,7 @@ nav ul li a {
     background-repeat: no-repeat;
     color: black;
     text-decoration-color: aqua;
+    text-decoration-thickness: 15px;
     height: 500px; /* Adjust height as needed */
     display: flex;
     flex-direction: column;
