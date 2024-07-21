@@ -440,3 +440,282 @@ footer {
 #solar .details button:hover, #wind .details button:hover {
     background-color: #ffa500;
 }
+
+/* Contact Page Styles */
+
+#contact-us h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #003366;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #002244;
+}
+
+.contact {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact h3 {
+    color: #003366;
+}
+
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+/* Solar Energy Page Styles */
+
+#solar .hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url(./assets/solar-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#solar .details {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#solar .details h3 {
+    text-align: center;
+}
+
+/* Wind Energy Page Styles */
+
+#wind .hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url(./assets/wind-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wind .details {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wind .details h3 {
+    text-align: center;
+}
+
+/* Energy Efficiency Page Styles */
+
+#energy-efficiency {
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url(./assets/energy-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero .btn {
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background-color: #ffa500;
+}
+
+.benefits {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefits h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.benefit img {
+    max-width: 60px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.benefit h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.benefit p {
+    margin: 0;
+}
+
+.tips {
+    padding: 2rem;
+    background-color: #e0f7fa;
+}
+
+.tips h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tips ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+.tips li {
+    margin-bottom: 0.5rem;
+}
+
+.tips .btn {
+    display: block;
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.tips .btn:hover {
+    background-color: #ffa500;
+}
+
+.resources {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resources h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.resources p {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.resources li {
+    margin: 0.5rem 0;
+}
+
+.resources a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
