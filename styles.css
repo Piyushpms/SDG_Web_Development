@@ -29,6 +29,11 @@ nav h1 {
     margin: 0;
 }
 
+nav h1 a {
+    color: white;
+    text-decoration: none;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -62,13 +67,7 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     color: black;
-    /* font-size: 50px;
-    -webkit-text-fill-color: aqua;
-    border-color: aqua;
-    border: 50px;
-    text-decoration-color: aqua; */
-    /* text-decoration-thickness: 15px; */
-    height: 500px; /* Adjust height as needed */
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -281,6 +280,7 @@ footer {
 .form-container p a:hover {
     text-decoration: underline;
 }
+
 /* Contact Page Styles */
 
 #contact-us h1 {
@@ -361,3 +361,82 @@ footer {
     transition: transform 0.3s ease;
 }
 
+/* Solar Energy Page Styles */
+
+#solar .hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url(./assets/solar-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#solar .details {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#solar .details h3 {
+    text-align: center;
+}
+
+/* Wind Energy Page Styles */
+
+#wind .hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url(./assets/wind-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wind .details {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wind .details h3 {
+    text-align: center;
+}
+/* Solar and Wind Energy Page Styles */
+
+#solar .hero, #wind .hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+#solar .details, #wind .details {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#solar .details button, #wind .details button {
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#solar .details button:hover, #wind .details button:hover {
+    background-color: #ffa500;
+}
