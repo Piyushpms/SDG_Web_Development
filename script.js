@@ -1,28 +1,45 @@
-// This script handles interactions and can be expanded for more functionality
-
-// Example: handling the "Join our mailing list" button
 document.addEventListener('DOMContentLoaded', () => {
-    // Handling subscription button
-    document.querySelector('.subscribe button').addEventListener('click', function() {
-        const isLoggedIn = !!localStorage.getItem('authToken');
-        if (isLoggedIn) {
-            alert('Thank you for subscribing to our newsletter!');
-        } else {
-            alert('Please log in to subscribe to our newsletter.');
-        }
-    });
 
-    // Handling Solar Energy page specific interactions
-    if (document.querySelector('#solar')) {
-        document.querySelector('.solar-info-button').addEventListener('click', function() {
-            alert('Learn more about our Solar Energy initiatives!');
-        });
+  // Function to handle subscription button click
+  const handleSubscriptionClick = () => {
+    const isLoggedIn = !!localStorage.getItem('authToken');
+    if (isLoggedIn) {
+      alert('You have successfully subscribed to our newsletter! We will keep you updated on the latest news and offers.');
+    } else {
+      const email = prompt('Please enter your email address to subscribe:');
+      if (email) {
+        // Add logic to handle the captured email (e.g., store or send for subscription)
+        alert(`Thank you for subscribing with ${email}! We will keep you updated.`);
+      } else {
+        alert('Subscription cancelled.');
+      }
     }
+  };
 
-    // Handling Wind Energy page specific interactions
-    if (document.querySelector('#wind')) {
-        document.querySelector('.wind-info-button').addEventListener('click', function() {
-            alert('Learn more about our Wind Energy initiatives!');
-        });
-    }
+  // Check if subscribe button exists before adding event listener
+  const subscribeButton = document.querySelector('.subscribe button');
+  if (subscribeButton) {
+    subscribeButton.addEventListener('click', handleSubscriptionClick);
+  }
+
+  // Function to handle solar info button click (if it exists)
+  const handleSolarInfoClick = () => {
+    alert('Learn more about our Solar Energy initiatives! Visit our dedicated page for details.');
+  };
+
+  const solarInfoButton = document.querySelector('.solar-info-button');
+  if (solarInfoButton) {
+    solarInfoButton.addEventListener('click', handleSolarInfoClick);
+  }
+
+  // Function to handle wind info button click (if it exists)
+  const handleWindInfoClick = () => {
+    alert('Learn more about our Wind Energy initiatives! Visit our dedicated page for details.');
+  };
+
+  const windInfoButton = document.querySelector('.wind-info-button');
+  if (windInfoButton) {
+    windInfoButton.addEventListener('click', handleWindInfoClick);
+  }
 });
+
