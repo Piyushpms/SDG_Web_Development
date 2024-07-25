@@ -280,6 +280,46 @@ footer {
 .form-container p a:hover {
     text-decoration: underline;
 }
+/* Target Section Styles */
+.target {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.target-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.target-item {
+    background-color: white;
+    padding: 0.5rem;;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+}
+
+.target-item h3 {
+    margin-bottom: 1rem;
+    color: #003366;
+    padding: 0.5rem;;
+    background-color: #ffa500;
+    border-radius: 5px 5px 0 0;
+}
+
+.target-item p {
+    margin: 0.5rem 0;
+}
+
+.target-item strong {
+    display: block;
+    margin-bottom: 0.5rem;
+}
 
 /* Contact Page Styles */
 
