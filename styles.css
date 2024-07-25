@@ -62,6 +62,42 @@ nav ul li a {
 .hero {
     text-align: left;
     padding: 2rem;
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.sol_cover {
+    text-align: left;
+    padding: 2rem;
+    background-image: url(./assets/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.win_cover {
+    text-align: left;
+    padding: 2rem;
+    background-image: url(./assets/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eff_cover {
+    text-align: left;
+    padding: 2rem;
     background-image: url(./assets/cover.jpg);
     background-size: cover;
     background-position: center;
