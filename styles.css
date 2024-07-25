@@ -815,7 +815,7 @@ footer {
         align-items: center;
     }
 
-    .hero ,.sol_cover, .win_cover, .eff_cover {
+    .ind_cover ,.sol_cover, .win_cover, .eff_cover {
         padding: 1rem;
         height: auto;
     }
