@@ -1,80 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - CleanEnergy</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - CleanEnergy</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
     <header>
-        <div class="contact-info">
-            <span>📞 +1 (571) 278-6061</span>
-            <span>📧 info@cleanenergy.org</span>
+      <div class="contact-info">
+        <span>📞 8844662200</span>
+        <span>📧 info@cleanenergy.org</span>
+      </div>
+      <nav>
+        <h1><a href="index.html">CleanEnergy</a></h1>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="index.html#sessions">Sessions</a></li>
+          <li><a href="index.html#jobs">Jobs</a></li>
+        </ul>
+        <div class="auth-buttons">
+          <button onclick="window.location.href='login.html'">Login</button>
+          <button onclick="window.location.href='register.html'">Register</button>
         </div>
-        <nav>
-            <h1>CleanEnergy</h1>
-            <ul>
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="index.html#about">About Us</a></li>
-                <li><a href="index.html#contact">Contact Us</a></li>
-                <li><a href="sessions.html">Sessions</a></li>
-                <li><a href="index.html#jobs">Jobs</a></li>
-            </ul>
-            <div class="auth-buttons">
-                <button onclick="window.location.href='login.html'">Login</button>
-                <button onclick="window.location.href='register.html'">Register</button>
-            </div>
-        </nav>
+      </nav>
     </header>
-    <main id="register">
-        <section class="form-container">
-            <h2>Register</h2>
-            <form action="register_handler.php" method="post">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-                
-                <button type="submit">Register</button>
-            </form>
-            <p>Already have an account? <a href="login.html">Login here</a>.</p>
-        </section>
+    <main>
+      <section class="login-container">
+        <h2>Login to Your Account</h2>
+        <form action="dashboard.html" method="post">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+      </section>
     </main>
     <footer>
-        <div class="footer-info">
-            <div class="about">
-                <h3>CleanEnergy</h3>
-                <p>Since 2000, CleanEnergy has worked to provide affordable and clean energy solutions to communities around the world. We believe in a future where everyone has access to sustainable energy.</p>
-            </div>
-            <div class="links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#about">About Us</a></li>
-                    <li><a href="index.html#contact">Contact Us</a></li>
-                    <li><a href="sessions.html">Sessions</a></li>
-                    <li><a href="index.html#jobs">Jobs</a></li>
-                </ul>
-            </div>
-            <div class="contact">
-                <h3>Contact Info</h3>
-                <p>📞 Call Us: +1 (571) 278-6061</p>
-                <p>📧 Mail Us: info@cleanenergy.org</p>
-                <p>📍 Visit Us: Reston, VA 20190, USA</p>
-            </div>
-            <div class="subscribe">
-                <h3>Subscribe to Our Newsletter</h3>
-                <p>Join our mailing list to receive the latest updates and offers.</p>
-                <button>Join our mailing list</button>
-            </div>
+      <div class="footer-info">
+        <div class="about">
+          <h3>CleanEnergy</h3>
+          <p>
+            Since 2020, CleanEnergy has worked to provide affordable and clean energy solutions to communities around the world. We believe in a future where everyone has access to sustainable energy.
+          </p>
         </div>
-        <p>&copy; 2024 CleanEnergy. All Rights Reserved.</p>
+        <div class="links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html#sessions">Sessions</a></li>
+            <li><a href="index.html#jobs">Jobs</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>Contact Info</h3>
+          <p>📞 Call Us: 8844662200</p>
+          <p>📧 Mail Us: info@cleanenergy.org</p>
+          <p>📍 Visit Us: Jalgaon, Maharastra, India</p>
+        </div>
+        <div class="subscribe">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Join our mailing list to receive the latest updates and offers.</p>
+          <button>Join our mailing list</button>
+        </div>
+      </div>
+      <p>&copy; 2024 CleanEnergy. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
