@@ -72,7 +72,45 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
 }
-
+.sol_cover {
+    text-align: left;
+    padding: 2rem;
+    background-image: url(./assets/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.win_cover {
+    text-align: left;
+    padding: 2rem;
+    background-image: url(./assets/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eff_cover {
+    text-align: left;
+    padding: 2rem;
+    background-image: url(./assets/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .connect-btn {
     background-color: #ffcc00;
     color: #003366;
