@@ -71,7 +71,7 @@ nav ul li a {
     max-height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: relative;
 }
 .eff_cover {
     text-align: left;
