@@ -67,7 +67,8 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     color: black;
-    height: 500px;
+    min-height: 300px;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +81,8 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     color: black;
-    height: 500px;
+    min-height: 300px;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +95,8 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     color: black;
-    height: 500px;
+    min-height: 300px;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,7 +109,8 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     color: black;
-    height: 500px;
+    min-height: 300px;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -813,7 +817,7 @@ footer {
         align-items: center;
     }
 
-    .hero {
+    .hero ,.sol_cover, .win_cover, .eff_cover {
         padding: 1rem;
         height: auto;
     }
