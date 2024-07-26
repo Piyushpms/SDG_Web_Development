@@ -497,21 +497,21 @@ footer {
 }
 /* Solar and Wind Energy Page Styles */
 
-#solar .hero, #wind .hero {
+#wind .hero {
     text-align: center;
     padding: 2rem;
     background-color: #e0f7fa;
     color: #00796b;
 }
 
-#solar .details, #wind .details {
+#wind .details {
     padding: 2rem;
     background-color: #fff;
     margin: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#solar .details button, #wind .details button {
+#wind .details button {
     background-color: #ffcc00;
     color: #003366;
     border: none;
@@ -520,7 +520,7 @@ footer {
     margin-top: 1rem;
 }
 
-#solar .details button:hover, #wind .details button:hover {
+#wind .details button:hover {
     background-color: #ffa500;
 }
 
