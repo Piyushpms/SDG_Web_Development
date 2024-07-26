@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Calculators</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        label { display: block; margin: 10px 0 5px; }
+        input { width: 100%; padding: 8px; margin-bottom: 10px; }
+        button { padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Solar Energy Calculators</h1>
+
+        <h2>Savings Calculator</h2>
+        <label for="currentBill">Current Monthly Electricity Bill (Rs):</label>
+        <input type="number" id="currentBill" step="0.01" required>
+        
+        <label for="installationCost">Cost of Solar Panel Installation(Avg value for 1kW Solar System =Rs.75,000–85,000):</label>
+        <input type="number" id="installationCost" step="0.01" required>
+        
+        <label for="monthlyConsumption">Average Monthly Electricity Consumption (kWh):</label>
+        <input type="number" id="monthlyConsumption" step="0.01" required>
+        
+        <label for="electricityRate">Average Electricity Rate (Rs/kWh):</label>
+        <input type="number" id="electricityRate" step="0.01" required>
+        
+        <label for="systemSize">System Size (kW):</label>
+        <input type="number" id="systemSize" step="0.01" required>
+        
+        <label for="sunlightHours">Average Sunlight Hours per Day:</label>
+        <input type="number" id="sunlightHours" step="0.01" required>
+        
+        <button onclick="calculateSavings()">Calculate Savings</button>
+        
+        <div class="result" id="savingsResult"></div>
+    </div>
+
+    <script>
+        function calculateSavings() {
+            const currentBill = parseFloat(document.getElementById('currentBill').value);
+            const installationCost = parseFloat(document.getElementById('installationCost').value);
+            const monthlyConsumption = parseFloat(document.getElementById('monthlyConsumption').value);
+            const electricityRate = parseFloat(document.getElementById('electricityRate').value);
+            const systemSize = parseFloat(document.getElementById('systemSize').value);
+            const sunlightHours = parseFloat(document.getElementById('sunlightHours').value);
+            
+            const monthlySolarGeneration = systemSize * sunlightHours * 30;
+            const estimatedMonthlyBill = monthlySolarGeneration * electricityRate;
+            const monthlySavings = currentBill - estimatedMonthlyBill;
+            const annualSavings = monthlySavings * 12;
+            const paybackPeriod = installationCost / annualSavings;
+            
+            document.getElementById('savingsResult').innerHTML = `
+                <h3>Results:</h3>
+                <p>Monthly Savings: Rs${monthlySavings.toFixed(2)}</p>
+                <p>Annual Savings: Rs${annualSavings.toFixed(2)}</p>
+                <p>Payback Period: ${paybackPeriod.toFixed(1)} years</p>
+            `;
+        }
+    </script>
+</body>
+</html>
