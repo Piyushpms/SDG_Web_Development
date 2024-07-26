@@ -58,6 +58,9 @@ nav ul li a {
 .auth-buttons button:hover {
     background-color: #ffcc00;
 }
+.logo{
+    image-rendering: auto;
+}
 
 .ind_cover {
     text-align: left;
