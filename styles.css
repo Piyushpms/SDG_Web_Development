@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 .ind_cover {
-    text-align: end;
+    text-align: left;
     padding: 5rem;
     background-image: url(./assets/main_cover.jpg);
     background-size: cover;
