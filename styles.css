@@ -89,7 +89,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
 }
-.sol_cover {
+/*.sol_cover {
     text-align: left;
     padding: 5rem;
     background-image: url(./assets/solar.jpg);
@@ -100,7 +100,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+}*/
 .win_cover {
     text-align: left;
     padding: 2rem;
