@@ -152,6 +152,7 @@ header .auth-buttons button:hover {
 
 /* Social Media */
 .social-media {
+    color: whitesmoke;
     text-align: center;
     margin: 2rem 0;
 }
