@@ -1,4 +1,3 @@
-/* Existing CSS Styles */
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -13,18 +12,15 @@ header {
     background-color: #003366;
     color: white;
     padding: 1rem 0;
+    text-align: center;
 }
 
-/* Other existing styles... */
-
-/* Contact Us Page Styles */
-#contact-us h1 {
-    text-align: center;
-    margin-top: 2rem;
-    color: #003366;
+header h1 {
+    margin: 0;
     font-size: 2.5rem;
 }
 
+/* Contact Form */
 #contact-form {
     max-width: 600px;
     margin: 2rem auto;
@@ -44,21 +40,22 @@ header {
 #contact-form form {
     display: flex;
     flex-direction: column;
+    color: #333; /* Set text color to black */
 }
 
 #contact-form label {
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #003366;
+    color: #333; /* Set text color to black */
 }
 
-#contact-form input,
-#contact-form textarea {
+#contact-form input {
     margin-bottom: 1rem;
     padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    color: #333; /* Set text color to black */
 }
 
 #contact-form button {
@@ -76,9 +73,11 @@ header {
     background-color: #002244;
 }
 
+/* Contact Info */
 .contact {
     text-align: center;
     margin: 2rem 0;
+    color: #333;
 }
 
 .contact h3 {
@@ -86,6 +85,12 @@ header {
     font-size: 1.5rem;
 }
 
+.contact p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Social Media */
 .social-media {
     text-align: center;
     margin: 2rem 0;
@@ -112,80 +117,14 @@ header {
     transform: scale(1.1);
 }
 
-/* Additional Styles */
-.contact-info {
-    text-align: center;
-    background-color: #002244;
-    padding: 1rem;
-    color: white;
-    font-size: 1rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #003366;
-    color: white;
-}
-
-nav h1 {
-    margin: 0;
-    font-size: 1.5rem;
-}
-
-nav h1 a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-.auth-buttons button {
-    background-color: white;
-    color: #003366;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    margin-left: 0.5rem;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.auth-buttons button:hover {
-    background-color: #ffcc00;
-}
-
 /* Media Queries */
 @media (max-width: 768px) {
-    .stats {
-        flex-direction: column;
+    #contact-form {
+        padding: 1rem;
     }
 
-    .campaigns .campaign,
-    .session {
-        flex-direction: column;
-    }
-
-    .nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-info {
-        flex-direction: column;
-        align-items: center;
+    .social-icon img {
+        width: 30px;
+        height: 30px;
     }
 }
