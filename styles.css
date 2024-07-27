@@ -102,7 +102,7 @@ nav ul li a {
     justify-content: center;
 }*/
 .win_cover {
-    text-align: left;
+    text-align: right;
     padding: 2rem;
     background-image: url(./assets/wind.jpg);
     background-size: cover;
