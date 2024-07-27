@@ -120,6 +120,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (carbonCalcButton) {
         carbonCalcButton.addEventListener('click', handleCarbonCalcClick);
     }
-  
-  });
+      // Contact Us Page Script
+
+    // Function to handle contact form submission
+    const handleContactFormSubmit = (event) => {
+        event.preventDefault();
+        alert('Thank you for connecting to us.');
+    };
+
+    const contactForm = document.querySelector('#contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', handleContactFormSubmit);
+    }
+
+});
+ 
   
