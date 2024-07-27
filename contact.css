@@ -1,3 +1,4 @@
+/* Existing CSS Styles */
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -14,11 +15,14 @@ header {
     padding: 1rem 0;
 }
 
+/* Other existing styles... */
+
 /* Contact Us Page Styles */
 #contact-us h1 {
     text-align: center;
     margin-top: 2rem;
     color: #003366;
+    font-size: 2.5rem;
 }
 
 #contact-form {
@@ -27,11 +31,14 @@ header {
     padding: 2rem;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 #contact-form h2 {
     text-align: center;
     margin-bottom: 1rem;
+    color: #003366;
+    font-size: 1.8rem;
 }
 
 #contact-form form {
@@ -42,21 +49,27 @@ header {
 #contact-form label {
     margin-bottom: 0.5rem;
     font-weight: bold;
+    color: #003366;
 }
 
-#contact-form input {
+#contact-form input,
+#contact-form textarea {
     margin-bottom: 1rem;
-    padding: 0.5rem;
+    padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 #contact-form button {
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     background-color: #003366;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 #contact-form button:hover {
@@ -70,6 +83,7 @@ header {
 
 .contact h3 {
     color: #003366;
+    font-size: 1.5rem;
 }
 
 .social-media {
@@ -80,6 +94,7 @@ header {
 .social-media h2 {
     color: #003366;
     margin-bottom: 1rem;
+    font-size: 1.8rem;
 }
 
 .social-icon {
@@ -93,11 +108,17 @@ header {
     transition: transform 0.3s ease;
 }
 
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
 /* Additional Styles */
 .contact-info {
     text-align: center;
     background-color: #002244;
-    padding: 0.5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
 }
 
 nav {
@@ -105,10 +126,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    background-color: #003366;
+    color: white;
 }
 
 nav h1 {
     margin: 0;
+    font-size: 1.5rem;
 }
 
 nav h1 a {
@@ -126,6 +150,7 @@ nav ul {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .auth-buttons button {
@@ -135,6 +160,8 @@ nav ul li a {
     padding: 0.5rem 1rem;
     cursor: pointer;
     margin-left: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .auth-buttons button:hover {
