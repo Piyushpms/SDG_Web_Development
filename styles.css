@@ -100,7 +100,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}*/
+
 .win_cover {
     text-align: right;
     padding: 2rem;
@@ -114,7 +114,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+}*/
 
 .connect-btn {
     background-color: #ffcc00;
@@ -470,7 +470,7 @@ footer {
     text-align: center;
 }
 */
-/* Wind Energy Page Styles */
+/* Wind Energy Page Styles 
 
 #wind .hero {
     text-align: center;
@@ -495,7 +495,7 @@ footer {
 #wind .details h3 {
     text-align: center;
 }
-/* Solar and Wind Energy Page Styles */
+/* Solar and Wind Energy Page Styles 
 
 #wind .hero {
     text-align: center;
@@ -523,7 +523,7 @@ footer {
 #wind .details button:hover {
     background-color: #ffa500;
 }
-
+*/
 /* Contact Page Styles */
 
 #contact-us h1 {
@@ -630,7 +630,7 @@ footer {
     text-align: center;
 }
 */
-/* Wind Energy Page Styles */
+/* Wind Energy Page Styles 
 
 #wind .hero {
     text-align: center;
@@ -655,7 +655,7 @@ footer {
 #wind .details h3 {
     text-align: center;
 }
-
+*/
 /* Energy Efficiency Page Styles */
 
 #energy-efficiency {
