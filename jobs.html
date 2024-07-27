@@ -19,14 +19,14 @@
             overflow: hidden;
         }
         header {
-            background: #2c3e50;
+            background: #003469;
             color: #fff;
             padding: 1em 0;
             text-align: center;
         }
         .job-listings {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: wrap; /* Allow wrapping to multiple lines */
             gap: 1em;
         }
         .job {
@@ -34,8 +34,13 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             padding: 1em;
-            width: 100%;
+            width: 100%; /* Adjust width to fit 4 jobs per row with gaps */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center-align the button horizontally */
+            text-align: center; /* Center-align the text inside the job */
         }
         .job h2 {
             font-size: 1.5em;
@@ -44,8 +49,20 @@
         .job p {
             margin: 0.5em 0;
         }
+        .apply-button {
+            background: #6ab817;/*27ae60*/
+            color: #fff;
+            border: none;
+            padding: 0.75em 1.5em; /* Adjusted button size */
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1em; /* Add some space above the button */
+        }
         .cta {
-            background: #27ae60;
+            background: #003469;
             color: #fff;
             padding: 1em;
             text-align: center;
@@ -53,7 +70,7 @@
             border-radius: 5px;
         }
         footer {
-            background: #2c3e50;
+            background: #003469;
             color: #fff;
             padding: 1em 0;
             text-align: center;
@@ -62,7 +79,7 @@
 </head>
 <body>
     <header>
-        <h1>Join Us in Promoting Clean Energy</h1>
+        <h1>Join Us in Promoting Affordable & Clean Energy</h1>
     </header>
     <div class="container">
         <section class="job-listings">
@@ -71,24 +88,57 @@
                 <p><strong>Location:</strong> New York, NY</p>
                 <p><strong>Type:</strong> Full-time</p>
                 <p>Lead the design and implementation of innovative renewable energy solutions. Work with a team of engineers to develop cutting-edge technologies that support clean energy goals.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Renewable Energy Engineer" class="apply-button">Apply Now</a>
             </div>
             <div class="job">
                 <h2>Sustainability Consultant</h2>
                 <p><strong>Location:</strong> San Francisco, CA</p>
                 <p><strong>Type:</strong> Part-time</p>
                 <p>Advise companies on sustainability practices and help them transition to greener operations. Develop strategies to minimize environmental impact and improve energy efficiency.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Sustainability Consultant" class="apply-button">Apply Now</a>
             </div>
             <div class="job">
                 <h2>Clean Energy Research Analyst</h2>
                 <p><strong>Location:</strong> Austin, TX</p>
                 <p><strong>Type:</strong> Contract</p>
                 <p>Conduct research on clean energy technologies and market trends. Analyze data and provide insights to support the development of new energy solutions and policies.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Clean Energy Research Analyst" class="apply-button">Apply Now</a>
             </div>
             <div class="job">
                 <h2>Solar Panel Installer</h2>
                 <p><strong>Location:</strong> Denver, CO</p>
                 <p><strong>Type:</strong> Full-time</p>
                 <p>Install and maintain solar panels for residential and commercial properties. Ensure all installations meet safety and quality standards while promoting sustainable energy use.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Solar Panel Installer" class="apply-button">Apply Now</a>
+            </div>
+            <!-- Additional Job Listings -->
+            <div class="job">
+                <h2>Wind Turbine Technician</h2>
+                <p><strong>Location:</strong> Chicago, IL</p>
+                <p><strong>Type:</strong> Full-time</p>
+                <p>Maintain and repair wind turbines. Ensure operational efficiency and safety of equipment while contributing to the growth of renewable wind energy.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Wind Turbine Technician" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h2>Energy Storage Specialist</h2>
+                <p><strong>Location:</strong> Mumbai, India</p>
+                <p><strong>Type:</strong> Full-time</p>
+                <p>Develop and manage energy storage solutions to enhance the efficiency and reliability of energy systems. Work on innovative technologies and strategies to support sustainable energy storage.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Energy Storage Specialist" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h2>Environmental Policy Advisor</h2>
+                <p><strong>Location:</strong> Delhi, India</p>
+                <p><strong>Type:</strong> Part-time</p>
+                <p>Advise on environmental policies and regulations. Work with governmental and non-governmental organizations to promote and implement policies that advance clean energy and sustainability.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Environmental Policy Advisor" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h2>Green Building Architect</h2>
+                <p><strong>Location:</strong> Bengaluru, India</p>
+                <p><strong>Type:</strong> Full-time</p>
+                <p>Design and plan eco-friendly buildings that adhere to green building standards. Focus on sustainable design practices and energy-efficient construction methods.</p>
+                <a href="mailto:careers@cleanenergyco.com?subject=Application for Green Building Architect" class="apply-button">Apply Now</a>
             </div>
         </section>
         <div class="cta">
