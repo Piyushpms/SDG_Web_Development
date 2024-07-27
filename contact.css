@@ -15,9 +15,68 @@ header {
     text-align: center;
 }
 
+header .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+header .contact-info span {
+    font-size: 1rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+}
+
+header h1 a img {
+    width: 200px;
+    height: 70px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header ul li {
+    margin: 0;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header .auth-buttons {
+    margin-top: 1rem;
+}
+
+header .auth-buttons button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+header .auth-buttons button:hover {
+    background-color: #002244;
 }
 
 /* Contact Form */
@@ -128,3 +187,4 @@ header h1 {
         height: 30px;
     }
 }
+
