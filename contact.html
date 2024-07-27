@@ -1,51 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact us</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <div id="contact-us">
-        <h1>Contact Us</h1>
-      </div>
+        <div id="contact-us">
+            <h1>Contact Us</h1>
+        </div>
     </header>
     <nav id="contact-form">
-      <h2>CleanEnergy</h2>
-      <form action="register_handler.php">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
-        <label for="email">Email id</label>
-        <input type="email" name="email" id="email" required />
-        <label for="number">Mobile no.</label>
-        <input type="number" name="number" id="number" />
-        <button type="submit">Submit</button>
-      </form>
+        <h2>CleanEnergy</h2>
+        <form action="register_handler.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email id</label>
+            <input type="email" name="email" id="email" required />
+            <label for="number">Mobile no.</label>
+            <input type="number" name="number" id="number" />
+            <button type="submit">Submit</button>
+        </form>
     </nav>
     <section>
-      <div class="contact">
-        <h3>Contact Info</h3>
-        <p>📞 Call Us: 8844662200</p>
-        <p>📧 Mail Us: info@cleanenergy.org</p>
-        <p>📍 Visit Us: Jalgaon, Maharastra, India</p>
-      </div>
-      <div class="social-media">
-        <h2>Follow Us</h2>
-        <a href="https://www.facebook.com" target="_blank" class="social-icon">
-          <img src="facebook-icon.png" alt="Facebook" />
-        </a>
-        <a href="https://www.twitter.com" target="_blank" class="social-icon">
-          <img src="twitter-icon.png" alt="Twitter" />
-        </a>
-        <a href="https://www.linkedin.com" target="_blank" class="social-icon">
-          <img src="linkedin-icon.png" alt="LinkedIn" />
-        </a>
-        <a href="https://www.instagram.com" target="_blank" class="social-icon">
-          <img src="instagram-icon.png" alt="Instagram" />
-        </a>
-      </div>
+        <div class="contact">
+            <h3>Contact Info</h3>
+            <p>📞 Call Us: 8844662200</p>
+            <p>📧 Mail Us: info@cleanenergy.org</p>
+            <p>📍 Visit Us: Jalgaon, Maharastra, India</p>
+        </div>
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <img src="facebook-icon.png" alt="Facebook" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                <img src="twitter-icon.png" alt="Twitter" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                <img src="linkedin-icon.png" alt="LinkedIn" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <img src="instagram-icon.png" alt="Instagram" />
+            </a>
+        </div>
     </section>
-  </body>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Function to handle contact form submission
+            const handleContactFormSubmit = (event) => {
+                event.preventDefault();
+                alert('Thank you for connecting to us.');
+            };
+
+            const contactForm = document.querySelector('#contact-form form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', handleContactFormSubmit);
+            }
+        });
+    </script>
+</body>
 </html>
+
