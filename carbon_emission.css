@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     background-color: #f4f4f4;
 }
 
@@ -10,19 +9,13 @@ header {
     background-color: #003366;
     color: white;
     padding: 1rem 0;
-}
-
-.contact-info {
     text-align: center;
-    background-color: #002244;
-    padding: 0.5rem;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
 }
 
 nav h1 {
@@ -37,74 +30,94 @@ nav h1 a {
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
     display: flex;
     gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00;
+    color: #003366;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 1rem;
 }
 
 .auth-buttons button {
-    background-color: white;
-    color: #003366;
+    background-color: #ffcc00;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    margin-left: 0.5rem;
 }
 
 .auth-buttons button:hover {
-    background-color: #ffcc00;
+    background-color: #e6b800;
 }
 
 .car_cover {
-    text-align: left;
-    padding: 2rem;
-    background-image: url(./assets/carbon_cover.jpg);
+    background-image: url('./assets/hero-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: black;
+    color: white;
     height: 300px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.details {
+.car_cover h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.content-section {
     padding: 2rem;
     background-color: white;
+    margin: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.details h2 {
+.content-section h2 {
+    text-align: center;
+    color: #003366;
+}
+
+.content-section p, .content-section ul {
+    margin: 1rem 0;
+}
+
+.methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.method {
+    flex: 1 1 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #e0f7fa;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.details p, .details ul {
-    margin: 1rem 0;
-}
-
-.project {
-    display: flex;
-    align-items: center;
-    background-color: #f4f4f4;
-    padding: 1rem;
-    margin: 1rem 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.project img {
-    max-width: 50%;
-    height: auto;
-}
-
-.project-info {
-    padding: 1rem;
-    text-align: left;
-    flex: 1;
+.method h3 {
+    color: #00796b;
 }
 
 footer {
@@ -114,48 +127,65 @@ footer {
     text-align: center;
 }
 
+footer h2 {
+    margin: 0;
+}
+
+footer p {
+    margin: 1rem 0;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #002244;
+}
+
 .footer-info {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
-.footer-info div {
-    flex: 1;
-    min-width: 250px;
+.footer-info > div {
+    flex: 1 1 200px;
+    margin: 1rem;
 }
 
-.footer-info h3 {
-    margin-top: 0;
-}
-
-.footer-info p {
-    margin: 0.5rem 0;
-}
-
-.footer-info a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-info a:hover {
-    text-decoration: underline;
-}
-
-.footer-info .subscribe button {
-    background-color: white;
-    color: #003366;
+.subscribe button {
+    background-color: #ffcc00;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
-.footer-info .subscribe button:hover {
-    background-color: #ffcc00;
-}
-
-footer p {
-    margin: 1rem 0 0;
-    font-size: 0.9rem;
+.subscribe button:hover {
+    background-color: #e6b800;
 }
