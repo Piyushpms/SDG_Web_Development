@@ -1,0 +1,217 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 0.5rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header .auth-buttons button {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  main {
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  main h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .eff_cover {
+    background: url('./assets/efficiency.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .eff_cover h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .eff_cover p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .eff_cover .btn {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .benefits, .tips, .resources, .donation {
+    background: #e2e2e2;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .benefit {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit h4 {
+    color: #333;
+  }
+  
+  .benefit p {
+    color: #666;
+  }
+  
+  .tips ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .tips .btn {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resources ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .resources ul li a {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  .resources ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .donation {
+    text-align: center;
+  }
+  
+  .donation .btn {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  footer .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  footer .footer-info > div {
+    flex: 1 1 200px;
+    padding: 1rem;
+  }
+  
+  footer .footer-info h3 {
+    margin-bottom: 1rem;
+  }
+  
+  footer .footer-info p, footer .footer-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer .footer-info ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .footer-info ul li a {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  footer .footer-info ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .subscribe button {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  footer p {
+    margin-top: 1rem;
+  }
+  
