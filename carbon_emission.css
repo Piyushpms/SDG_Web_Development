@@ -83,6 +83,11 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
 }
+#current-status img{
+    justify-content: flex-end;
+    width: fit-content;
+    height: 350px;
+}
 
 .content-section {
     padding: 2rem;
