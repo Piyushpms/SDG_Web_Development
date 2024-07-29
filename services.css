@@ -108,12 +108,8 @@ nav ul li a {
     background: #005bb5;
 }
 
-.about, .contact, .energy-efficiency {
+.about, .contact {
     padding: 40px 20px;
-}
-
-.energy-efficiency {
-    background: #f4f4f4;
 }
 
 footer {
@@ -123,35 +119,110 @@ footer {
     padding: 10px 20px;
 }
 
-.donation-link {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #ff6600;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .project-card {
+        width: calc(100% - 20px);
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
 }
 
-.donation-link:hover {
-    background: #e65c00;
+@media (max-width: 480px) {
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .projects, .about, .contact {
+        padding: 20px 10px;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card h3 {
+        font-size: 1.2em;
+    }
+
+    .project-card p {
+        font-size: 0.9em;
+    }
 }
 
 /* Back to Top Button */
 .back-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
     display: none;
-    background: #333;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0066cc;
     color: #fff;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
     cursor: pointer;
-    font-size: 20px;
 }
 
 .back-to-top.show {
     display: block;
+}
+
+/* Contact Form Styles (if exists) */
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background: #005bb5;
 }
