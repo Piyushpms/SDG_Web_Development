@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('DOMContentLoaded', () => {
         // Smooth scrolling for navigation links
         document.querySelectorAll('nav ul li a').forEach(anchor => {
@@ -171,4 +171,4 @@
     if (contactForm) {
         contactForm.addEventListener('submit', handleContactFormSubmit);
     }
-
+});
