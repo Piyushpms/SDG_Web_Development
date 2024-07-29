@@ -1,13 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('DOMContentLoaded', () => {
-        // Smooth scrolling for navigation links
         document.querySelectorAll('nav ul li a').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
                 const target = document.querySelector(targetId);
-                console.log('Target ID:', targetId); // Check target ID
-                console.log('Target Element:', target); // Check if target is null or an element
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth'
@@ -16,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+    
     
     // Back to top button
     const backToTopButton = document.createElement('button');
