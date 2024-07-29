@@ -323,6 +323,49 @@ footer {
 .form-container p a:hover {
     text-decoration: underline;
 }
+/*Goal info styles */
+#goal-7-info {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.goal-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.goal-info-text {
+    flex: 1;
+    min-width: 300px;
+    color: #333;
+}
+
+.goal-info-text h2 {
+    color: #003366;
+}
+
+.goal-info-text p {
+    margin-bottom: 1rem;
+}
+
+.goal-info-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    align-items: center;
+}
+
+.goal-info-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 /* Target Section Styles */
 .target {
     padding: 2rem;
@@ -1048,45 +1091,4 @@ main section {
 .about-us .values ul li {
     margin-bottom: 0.5rem;
 }
-#goal-7-info {
-    padding: 2rem;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-}
 
-.goal-info-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-}
-
-.goal-info-text {
-    flex: 1;
-    min-width: 300px;
-    color: #333;
-}
-
-.goal-info-text h2 {
-    color: #003366;
-}
-
-.goal-info-text p {
-    margin-bottom: 1rem;
-}
-
-.goal-info-images {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20rem;
-    align-items: center;
-}
-
-.goal-info-images img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
