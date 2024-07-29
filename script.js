@@ -171,4 +171,4 @@
     if (contactForm) {
         contactForm.addEventListener('submit', handleContactFormSubmit);
     }
-});
+
