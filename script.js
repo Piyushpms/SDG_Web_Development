@@ -13,6 +13,26 @@ document.addEventListener('DOMContentLoaded', () => {
     //         });
     //     });
     // });
+    document.addEventListener('DOMContentLoaded', () => {
+        // Show the spinner
+        const showSpinner = () => {
+            document.getElementById('spinner').style.display = 'flex';
+        };
+    
+        // Hide the spinner
+        const hideSpinner = () => {
+            document.getElementById('spinner').style.display = 'none';
+        };
+    
+        // Show the spinner when the page starts loading
+        window.addEventListener('load', hideSpinner);
+        // Hide the spinner when the page is fully loaded
+        window.addEventListener('beforeunload', showSpinner);
+    
+        // If you have specific async operations, you can show and hide the spinner like this:
+        // showSpinner();
+        // fetch('your-url').then(() => hideSpinner());
+    });
     
     
     // Back to top button
