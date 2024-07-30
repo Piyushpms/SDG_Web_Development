@@ -119,32 +119,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
 }
-/*.sol_cover {
-    text-align: left;
-    padding: 5rem;
-    background-image: url(./assets/solar.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-.win_cover {
-    text-align: right;
-    padding: 2rem;
-    background-image: url(./assets/wind.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-    min-height: 300px;
-    max-height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}*/
 
 .connect-btn {
     background-color: #ffcc00;
@@ -517,86 +492,7 @@ footer {
     transition: transform 0.3s ease;
 }
 
-/* Solar Energy Page Styles 
 
-#solar .hero {
-    text-align: center;
-    padding: 2rem;
-    background-image: url(./assets/solar-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#solar .details {
-    padding: 2rem;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#solar .details h3 {
-    text-align: center;
-}
-*/
-/* Wind Energy Page Styles 
-
-#wind .hero {
-    text-align: center;
-    padding: 2rem;
-    background-image: url(./assets/wind-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#wind .details {
-    padding: 2rem;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#wind .details h3 {
-    text-align: center;
-}
-/* Solar and Wind Energy Page Styles 
-
-#wind .hero {
-    text-align: center;
-    padding: 2rem;
-    background-color: #e0f7fa;
-    color: #00796b;
-}
-
-#wind .details {
-    padding: 2rem;
-    background-color: #fff;
-    margin: 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#wind .details button {
-    background-color: #ffcc00;
-    color: #003366;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-
-#wind .details button:hover {
-    background-color: #ffa500;
-}
-*/
 /* Contact Page Styles */
 
 #contact-us h1 {
@@ -677,58 +573,7 @@ footer {
     transition: transform 0.3s ease;
 }
 
-/* Solar Energy Page Styles 
 
-#solar .hero {
-    text-align: center;
-    padding: 2rem;
-    background-image: url(./assets/solar-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#solar .details {
-    padding: 2rem;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#solar .details h3 {
-    text-align: center;
-}
-*/
-/* Wind Energy Page Styles 
-
-#wind .hero {
-    text-align: center;
-    padding: 2rem;
-    background-image: url(./assets/wind-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#wind .details {
-    padding: 2rem;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#wind .details h3 {
-    text-align: center;
-}
-*/
 /* Energy Efficiency Page Styles */
 
 #energy-efficiency {
@@ -900,8 +745,9 @@ footer {
         align-items: center;
     }
 }
+
 /* css for solar energy page*/
-  /* Main content styles */
+  /* Main content styles */ /*
   main {
     padding: 20px;
   }
@@ -939,21 +785,21 @@ footer {
     border-radius: 10px; 
     
   }
-  /* css for list*/
-  /* General container style */
+   css for list
+  /* General container style 
 max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* Header style */
+/* Header style 
 section.guide h2 {
     color: #007BFF;
     text-align: center;
 }
 
-/* Ordered list style */
+/* Ordered list style 
 section.guide ol {
     counter-reset: item;
     list-style-type: none;
@@ -972,7 +818,7 @@ section.guide ol > li::before {
     margin-right: 10px;
 }
 
-/* Nested unordered list style */
+/* Nested unordered list style 
 section.guide ul {
     list-style-type: disc;
     padding-left: 40px;
@@ -995,7 +841,7 @@ section.guide ul li::before {
 .solar_calculator{
     color: red;
 }
-/* Wind Energy Page Styles */
+/* Wind Energy Page Styles 
 
 main h1 {
     color: #333;
@@ -1077,6 +923,195 @@ main section {
 .challenges-table tr:nth-child(even) {
     background-color: #f4f4f4;
 }
+*/
+/* new solar colorful */
+/* Solar Page Styles */
+#solar {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke; 
+    line-height: 1.6;
+}
+
+#solar h1 {
+    color: #f57c00; 
+    font-size: 36px;
+}
+
+#solar section {
+    margin-bottom: 30px;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#solar .solar-1 img,
+#solar .solar-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#solar .solar-2 h2,
+#solar .solar-3 h2,
+#solar .guide h2,
+#solar .solar_calculator h3 {
+    color: #ffab00; 
+}
+
+#solar .guide ol {
+    padding-left: 20px;
+}
+
+#solar .guide ul {
+    padding-left: 20px;
+}
+
+#solar .solar_calculator button {
+    background-color: #ff6f00; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#solar .solar_calculator button:hover {
+    background-color: #e65100; 
+}
+
+#solar .solar_calculator h3 {
+    color: #ff6f00; 
+}
+/* new wind colorful*/
+/* Wind Page Styles */
+#wind {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e3f2fd; 
+    line-height: 1.6;
+}
+
+#wind h1 {
+    color: #0277bd; 
+    font-size: 36px;
+}
+
+#wind h2 {
+    color: #0288d1; 
+}
+
+#wind section {
+    margin-bottom: 30px;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#wind .working img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+#wind .intro img,
+#wind .turbine_types img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#wind .turbine_types h4 {
+    color: #01579b; /* Darker blue for turbine type headings */
+}
+
+#wind .wind_india ul,
+#wind .wind_india p {
+    margin-bottom: 15px;
+}
+
+#wind .wind_india .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wind .wind_india .table-container {
+    margin-top: 20px;
+}
+
+#wind .wind_india .challenges-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#wind .wind_india .challenges-table th,
+#wind .wind_india .challenges-table td {
+    border: 1px solid #b0bec5;
+    padding: 10px;
+    text-align: left;
+}
+
+#wind .wind_india .challenges-table th {
+    background-color: #81d4fa; 
+}
+
+#wind .wind_india .challenges-table tr:nth-child(even) {
+    background-color: #e1f5fe; 
+}
+
+#wind .wind_india h3 {
+    color: #0277bd; 
+}
+/* Hydropower Energy Page Styles */
+
+
+#hydro {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e0f7fa; 
+    line-height: 1.6;
+}
+
+#hydro h1 {
+    color: #004d40; 
+    font-size: 36px;
+}
+
+#hydro section {
+    margin-bottom: 30px;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hydro .intro img,
+#hydro .working img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#hydro .types h2,
+#hydro .types h3,
+#hydro .hydro_india h2,
+#hydro .hydro_india h4,
+#hydro .support h2,
+#hydro .support h3 {
+    color: #00796b; 
+}
+
+#hydro .support a {
+    color: #004d40;
+    text-decoration: underline;
+}
+
 /* About Us Page Styles */
 .about-us {
     background-color: white;
